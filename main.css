@@ -1,0 +1,18 @@
+#controls {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.controls {
+    width : 90px;
+    height: 90px;
+}
+
+#snake {
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    font-family: monospace;
+}
