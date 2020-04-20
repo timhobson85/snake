@@ -59,6 +59,7 @@ function keydown(e) {
   }
 }
 
+// don't instantly die if you try to go backwards
 function turnLeft() {
   if (vel.x === 1 && vel.y === 0) {
     return
