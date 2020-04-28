@@ -9,8 +9,13 @@ const screenSize = 20;
 const pixelSize = canvas.width / screenSize;
 
 let pos, vel, food, snake, score;
+let highscore = 0;
 
 init = () => {
+  if (score > highscore) {
+    highscore = score;
+    document.getElementById('highscore').innerHTML = score;
+  }
   score = 0;
   pos = { x: 10, y: 10 };
   vel = { x: 0, y: 0 };
